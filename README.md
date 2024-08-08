@@ -1,63 +1,63 @@
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
+本地OrionLib=loadstring(游戏：HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
 
-local Window = OrionLib:MakeWindow({Name = "NASA中心", HidePremium = false, SaveConfig = true,IntroText = "NASA中心", ConfigFolder = "NASA中心"})
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "NASA中心"; Text ="NASA中心"; Duration = 4; })
+本地窗口=OrionLib:MakeWindow({Name="NASA中心"，HidePremium=false，saveconfig=true，introtext="NASA中心"，ConfigFolder="NASA中心"})
+游戏：GetService("StarterGuui")：SetCore("SendNotification"，{title="NASA中心"；Text="NASA中心"；持续时间=4；})
 
-local about = Window:MakeTab({
-    Name = "坤制作",
-    Icon = "rbxassetid://11312",
-    PremiumOnly = false
+本地关于=窗口：MakeTab({
+name="坤制作"，
+icon="rbxassetid://11312"，
+PremiumOnly=false
 })
 
-about:AddParagraph("云端更新")
-about:AddParagraph("更新什么我也不知道")
+关于：addParagraph("云端更新")
+关于：addParagraph("更新什么我也不知道")
 
 
-local Tab =Window:MakeTab({
-	Name = "公告",
-	Icon = "rbxassetid://11312",
-	PremiumOnly = false
+本地选项卡=窗口：MakeTab({
+name="公告"，
+icon="rbxassetid://11312"，
+PremiumOnly=false
 })
 
-Tab:AddButton({
-	Name = "复制作者QQ",
-	Callback = function()
-     setclipboard("你妈死了😋")
-  	end
+选项卡：AddButton({
+name="复制作者QQ"，
+callback=函数()
+setclipboard("你妈死了😋")
+结束
 })
 
-Tab:AddButton({
-	Name = "复制QQ群",
-	Callback = function()
-     setclipboard("521471687")
-  	end
+选项卡：AddButton({
+name="复制QQ群"，
+callback=函数()
+固定夹板(“521471687”)
+结束
 })
 
 OrionLib:MakeNotification({
-	Name = "坤脚本",
-	Content = "欢迎使用",
-	Image = "rbxassetid://394647608",
-	Time = 2
+name="坤脚本"，
+content="欢迎使用"，
+image="rbxassetid://394647608"，
+时间=2
 
 })
 
-local Tab = Window:MakeTab({
+本地选项卡=窗口：MakeTab({
 
-    Name = "玩家",
+    name="玩家"，
 
-    Icon = "rbxassetid://394647608",
+    icon="rbxassetid://394647608"，
 
-    PremiumOnly = false
-
-})
-
-local Section = Tab:AddSection({
-
-	Name = "欢迎玩家"
+    PremiumOnly=false
 
 })
 
-Tab:AddSlider({
+本地节=制表符：AddSection({
+
+	name="欢迎玩家"
+
+})
+
+选项卡：AddSlider({
 
 	Name = "速度",
 
